@@ -4,6 +4,7 @@ require "presenters/index_presenter"
 describe IndexPresenter do
   describe "#edit_path" do
     it "returns the edit path for a resource" do
+      raise 'ohno'
       customer = create(:customer)
       presenter = IndexPresenter.new(CustomerDashboard.new)
 
