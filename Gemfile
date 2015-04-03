@@ -43,6 +43,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'rspec_junit_formatter', :git => 'git@github.com:circleci/rspec_junit_formatter.git'
   gem "capybara-webkit", ">= 1.2.0"
   gem "database_cleaner"
   gem "formulaic"
